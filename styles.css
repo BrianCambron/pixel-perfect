@@ -1,0 +1,77 @@
+body {
+  background-color: #F4F4F4;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 26px;
+}
+
+.left-nav {
+  padding-left: 88.3px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.left-nav a {
+  text-decoration: none;
+  color: #AAAAAA;
+  padding-left: 29px;
+}
+
+.right-nav a {
+  text-decoration: none;
+  color: #AAAAAA;
+  padding-right: 7.8px;
+}
+
+.right-nav {
+  padding-right: 99px;
+  font-size: 14px;
+}
+
+.fa-heart::before {
+  padding-right: 28px;
+}
+
+.fa-angle-down {
+  color: #AAAAAA;
+}
+.travel{
+  display: inline-block;
+  text-align: center;
+  width:775px;
+  margin-left: 128px;
+  margin-top: 55px;
+  border: solid 1px white;
+  background-color: white;
+}
+.Brian{
+  display: inline-block;
+  text-align: center;
+}
+.travel > img{
+  width: 777px;
+}
+.travelphead {
+  margin-top: 36px;
+  font-size: 10.5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #61C1E4;
+  font-weight: 900;
+}
+.travel > h1{
+  font-size: 26px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 16px;
+}
+.travelpbody{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2.1;
+  padding-left: 45px;
+  padding-right: 45px;
+  text-align: left;
+}
