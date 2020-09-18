@@ -87,6 +87,7 @@ body {
   padding-right: 45px;
   text-align: left;
   padding-top: 4px;
+  word-spacing: 1.5px;
 }
 
 .contBtn {
@@ -169,7 +170,8 @@ body {
   margin-top: 22px;
   line-height: 1.6;
 }
-.aside1-icons a{
+
+.aside1-icons a {
   text-decoration: none;
   font-size: 16px;
   border-radius: 50%;
@@ -182,15 +184,13 @@ body {
   color: #AAAAAA;
   margin-top: 13px;
 }
-.article-2 img{
-  width: 777px;
-  height: 580px;
-}
-.section-2{
+
+.section-2 {
   display: inline-flex;
   position: relative;
 }
-.article-2{
+
+.article-2 {
   display: inline-block;
   text-align: center;
   width: 777px;
@@ -199,20 +199,28 @@ body {
   border: solid 1px #EEEEEE;
   background-color: white;
 }
-.artphead{
+
+.article-2 img {
+  width: 777px;
+  height: 580px;
+}
+
+.artphead {
   margin-top: 39px;
   font-size: 10.5px;
   font-family: 'Open Sans', sans-serif;
   color: #61C1E4;
 }
-.article-2 h1{
+
+.article-2 h1 {
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
   margin-top: 13px;
   margin-bottom: 22px;
   letter-spacing: 1.5px;
 }
-.artpbody{
+
+.artpbody {
   font-size: 13.9px;
   font-family: 'Open Sans', sans-serif;
   line-height: 2;
@@ -220,8 +228,10 @@ body {
   padding-right: 45px;
   text-align: left;
   padding-top: 4px;
+  word-spacing: 1.5px;
 }
-.art-footer{
+
+.art-footer {
   display: flex;
   justify-content: space-between;
   font-size: 13px;
@@ -231,7 +241,8 @@ body {
   font-style: italic;
   padding-right: 38.5px;
 }
-.art-icons a{
+
+.art-icons a {
   text-decoration: none;
   font-size: 16px;
   border-radius: 50%;
@@ -244,11 +255,13 @@ body {
   color: #AAAAAA;
   margin-bottom: 36px;
 }
-.greenville-drive{
+
+.greenville-drive {
   width: 307px;
   height: 175px;
 }
-.aside-2{
+
+.aside-2 {
   display: inline-block;
   text-align: center;
   margin-left: 35px;
@@ -265,13 +278,139 @@ body {
   font-family: 'Open Sans', sans-serif;
   height: 945px;
 }
-.aside-2 h1{
+
+.aside-2 h1 {
   margin-top: 38px;
   margin-bottom: 25px;
 }
-.greenville-drive-date{
+
+.greenville-drive-date {
   text-align: start;
   font-size: 12px;
   margin-top: 20px;
   font-weight: 900;
+  margin-bottom: 26px;
+}
+
+.fall-for-greenville {
+  width: 307px;
+  height: 175px;
+  margin-top: 21px;
+}
+
+.fall-for-greenville-date {
+  text-align: start;
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: 900;
+  margin-bottom: 26px;
+}
+
+.up-on-the-roof {
+  width: 307px;
+  height: 175px;
+  margin-top: 21px;
+}
+
+.up-on-roof-date {
+  text-align: start;
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: 900;
+  margin-bottom: 26px;
+}
+
+.section-3 {
+  display: inline-flex;
+  position: relative;
+}
+
+.article-3 img {
+  width: 777px;
+  height: 437px;
+}
+
+.article-3 {
+  display: inline-block;
+  text-align: center;
+  width: 777px;
+  margin-left: 128px;
+  margin-top: 41px;
+  border: solid 1px #EEEEEE;
+  background-color: white;
+}
+
+.entertainmentphead {
+  margin-top: 39px;
+  font-size: 10.5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #61C1E4;
+}
+
+.article-3 h1 {
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 13px;
+  margin-bottom: 22px;
+  letter-spacing: 1.5px;
+}
+
+.entertainmentpbody {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2;
+  padding-left: 45px;
+  padding-right: 45px;
+  text-align: left;
+  padding-top: 4px;
+  word-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.entertainment-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 46.5px;
+  padding-top: 19px;
+  font-style: italic;
+  padding-right: 38.5px;
+}
+
+.entertainment-icons a {
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+  margin-right: 10px;
+  border-color: #EEEE;
+  border-width: 1px;
+  border-style: solid;
+  color: #AAAAAA;
+  margin-bottom: 36px;
+}
+
+.aside-3 {
+  height: 515px;
+  border: solid 1px #EEEEEE;
+  background-color: white;
+  position: absolute;
+  left: 100%;
+  margin-left: 35px;
+  font-family: 'Open Sans', sans-serif;
+  bottom: 80.4%;
+  width: 368px;
+}
+
+.florence-opera {
+  width: 105px;
+  height: 80px;
+}
+
+.aside-3 h1 {
+  font-size: 20px;
+  padding-top: 22px;
+  text-align: center;
 }
