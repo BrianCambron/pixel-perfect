@@ -72,10 +72,11 @@ body {
 }
 
 .travel>h1 {
-  font-size: 26px;
+  font-size: 24px;
   font-family: 'Open Sans', sans-serif;
   margin-top: 13px;
-  margin-bottom: 22px
+  margin-bottom: 22px;
+  letter-spacing: 1.5px;
 }
 
 .travelpbody {
@@ -97,7 +98,7 @@ body {
   border-style: solid;
   border-width: 1px;
   border-color: #EEEE;
-  margin-top: 11.7px;
+  margin-top: 14px;
   margin-bottom: 26px;
 }
 
@@ -107,7 +108,7 @@ body {
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
   padding-left: 46.5px;
-  padding-top: 21px;
+  padding-top: 22px;
   font-style: italic;
   padding-right: 38.5px;
 }
@@ -133,4 +134,38 @@ body {
 .aside1 {
   margin-left: 35px;
   margin-top: 55px;
+  border: solid 1px #EEEEEE;
+  background-color: white;
+  height: 700px;
+}
+
+.reedy-river {
+  width: 370px;
+  height: 187px;
+  position: relative;
+}
+
+.picOfBrian {
+  width: 300px;
+  position: absolute;
+  right: 162px;
+  border-radius: 50%;
+  top: 226px;
+  border: solid 4px white;
+}
+
+.aside1text {
+  margin-top: 239px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.aside1p {
+  width: 300px;
+  font-size: 16.6px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 22px;
+  line-height: 1.6;
 }
