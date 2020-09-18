@@ -405,12 +405,76 @@ body {
 }
 
 .florence-opera {
-  width: 105px;
+  width: 102px;
   height: 80px;
+  padding-left: 30px;
+  margin-bottom: 3px;
 }
 
 .aside-3 h1 {
   font-size: 20px;
   padding-top: 22px;
   text-align: center;
+  margin-bottom: 25px;
+}
+
+.lastest-post-flex {
+  display: flex;
+}
+
+.latest-post-1 {
+  display: flex;
+  font-size: 12px;
+  flex-direction: column;
+}
+
+.modern-minimalist {
+  width: 102px;
+  height: 80px;
+  padding-left: 30px;
+  margin-bottom: 3px;
+}
+
+.latest-post-flex-2 {
+  display: flex;
+}
+
+.latest-post-2 {
+  display: flex;
+  font-size: 12px;
+  flex-direction: column;
+}
+
+.latest-post-flex-3 {
+  display: flex;
+}
+
+.ramsus-warberg-chair {
+  width: 102px;
+  height: 80px;
+  padding-left: 30px;
+  margin-bottom: 3px;
+}
+
+.latest-post-3 {
+  display: flex;
+  font-size: 12px;
+  flex-direction: column;
+}
+
+.latest-post-flex-4 {
+  display: flex;
+}
+
+.coffee-cup {
+  width: 102px;
+  height: 80px;
+  padding-left: 30px;
+  margin-bottom: 3px;
+}
+
+.latest-post-4 {
+  display: flex;
+  font-size: 12px;
+  flex-direction: column;
 }
