@@ -593,6 +593,11 @@ body {
 @media only screen and (max-width: 600px) {
   .container-1 {
     padding: 40px;
+    width: 490px;
+  }
+
+  .leftarticle {
+    width: 486px;
   }
 
   .travel {
@@ -612,6 +617,10 @@ body {
     margin-bottom: -14px;
   }
 
+  .travelphead {
+    margin-top: 37px;
+  }
+
   .left-nav {
     display: none;
   }
@@ -623,7 +632,6 @@ body {
   .contBtn {
     padding: 14px 25px 14px 25px;
     margin-top: 11px;
-    margin-bottom: 23px;
   }
 
   .travelpbody {
@@ -648,6 +656,10 @@ body {
     padding-top: 20px;
   }
 
+  .section-2 {
+    width: 486px;
+  }
+
   .article-2 {
     width: 470px;
     margin-left: 14px;
@@ -658,6 +670,10 @@ body {
   .article-2>img {
     width: 470px;
     height: 350px;
+  }
+
+  .artphead {
+    margin-top: 36px;
   }
 
   .artpbody {
@@ -703,8 +719,17 @@ body {
     width: 470px;
     height: 263px;
   }
-  .article-3>h1{
-    font-size:23px;
+
+  .article-3>h1 {
+    font-size: 23px;
+  }
+
+  .section-3 {
+    width: 486px;
+  }
+
+  .entertainmentphead {
+    margin-top: 36px;
   }
 
   .entertainmentpbody {
@@ -720,30 +745,46 @@ body {
     padding-left: 44.5px;
     padding-top: 21px;
   }
+
   .entertainment-icons {
     padding-top: 27px;
     text-align: end;
   }
+
   .entertainment-icons a {
     margin-right: 8px;
   }
+
+  .section-4 {
+    width: 486px;
+  }
+
   .article-4 {
     width: 470px;
     margin-left: 14px;
     margin-top: 40px;
     height: 909px;
   }
+
   .article-4>img {
     width: 470px;
     height: 352px;
   }
-  .article-4 >h1{
+
+  .article-4>h1 {
     font-size: 21px;
+    margin-top: 15px;
   }
-  .foodpbody{
+
+  .foodphead {
+    margin-top: 36px;
+  }
+
+  .foodpbody {
     word-spacing: 0px;
     margin-bottom: -3px;
   }
+
   .food-footer {
     display: block;
     font-size: 12px;
@@ -751,43 +792,165 @@ body {
     padding-left: 44.5px;
     padding-top: 21px;
   }
+
   .food-icons {
     padding-top: 27px;
     text-align: end;
   }
+
   .food-icons a {
     margin-right: 8px;
   }
-  .aside1{
+
+  .aside1 {
     position: relative;
     top: 3645px;
     width: 470px;
-    /* margin-left: 20px; */
     display: block;
-    right: 51%;
+    right: 104%;
     height: 711px;
   }
+
   .reedy-river {
     width: 471px;
     height: 183px;
   }
+
   .picOfBrian {
     width: 398px;
     right: 34px;
     top: 103px;
   }
-  .aside1text{
+
+  .aside1text {
     margin-top: 343px;
     margin-bottom: 0px;
   }
-  .aside1p{
+
+  .aside1p {
     width: 376px;
     font-size: 14px;
     padding-left: 49px;
     margin-bottom: -19px;
     margin-top: 22px;
   }
-  .aside1-icons a{
+
+  .aside1-icons a {
     margin-right: 1px;
+  }
+
+  .page-footer {
+    margin-top: 39px;
+    position: relative;
+    top: 3693px;
+    padding: 21.4px 0px 21.4px 0px;
+    font-size: 15px;
+  }
+
+  .aside-2 {
+    margin-left: 0;
+    left: 3%;
+    width: 406px;
+    top: 3572px;
+    margin-top: 0;
+    height: 1226px;
+  }
+
+  .aside-2 h1 {
+    margin-top: 33px;
+  }
+
+  .greenville-drive {
+    width: 408px;
+    height: 304px;
+  }
+
+  .greenville-drive-date {
+    display: none;
+  }
+
+  .aside-2>hr:first-of-type {
+    display: none;
+  }
+
+  .fall-for-greenville {
+    margin-top: 24px;
+    width: 408px;
+    height: 302px;
+  }
+
+  .fall-for-greenville-date {
+    margin-top: 17px;
+  }
+
+  .up-on-the-roof {
+    width: 408px;
+    height: 301px;
+  }
+
+  .up-on-roof-date {
+    margin-top: 17px;
+  }
+
+  .aside-3 {
+    width: 466px;
+    top: 3859px;
+    left: -18px;
+    height: 463px;
+  }
+
+  .aside-3 h1 {
+    margin-bottom: 21px;
+  }
+
+  .florence-opera {
+    width: 99px;
+    height: 67px;
+    margin-top: 4px;
+  }
+
+  .modern-minimalist {
+    width: 99px;
+    height: 67px;
+  }
+
+  .ramsus-warberg-chair {
+    width: 99px;
+    height: 67px;
+  }
+
+  .coffee-cup {
+    width: 99px;
+    height: 67px;
+  }
+
+  .aside-4 {
+    width: 466px;
+    top: 4357px;
+    left: -14px;
+    height: 1127px;
+  }
+
+  .aside-4 h1 {
+    margin-bottom: 22px;
+  }
+
+  .aside4-pics img {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 6px;
+  }
+
+  .last-avatar-pic {
+    display: flex;
+    padding-left: 27px;
+  }
+
+  .latest-post-2 p {
+    margin-bottom: 10px;
+  }
+
+  .latest-post-3 p {
+    margin-bottom: 6px;
   }
 }
