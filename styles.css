@@ -13,6 +13,10 @@ body {
   padding: 26px;
 }
 
+.container-1 a:hover {
+  color: #94DFF6;
+}
+
 .left-nav {
   padding-left: 88.3px;
   font-size: 14px;
@@ -32,7 +36,7 @@ body {
 }
 
 .right-nav {
-  padding-right: 96px;
+  padding-right: 100px;
   font-size: 14px;
 }
 
@@ -57,6 +61,7 @@ body {
 .aside1 {
   display: inline-flex;
   text-align: center;
+  position: relative;
 }
 
 .travel>img {
@@ -89,6 +94,7 @@ body {
   text-align: left;
   padding-top: 4px;
   word-spacing: 1.5px;
+  margin-bottom: 11px;
 }
 
 .contBtn {
@@ -104,29 +110,47 @@ body {
   margin-bottom: 25px;
 }
 
+.contBtn:hover {
+  background-color: #43C1F2;
+  color: white;
+}
+
 .travel-footer {
-  display: flex;
-  justify-content: space-between;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
-  padding-left: 46.5px;
+  padding-left: 30px;
   padding-top: 22px;
   font-style: italic;
   padding-right: 38.5px;
 }
-
+.travel-footer a{
+  text-decoration: none;
+  color: black;
+}
 .travel-icons a {
   text-decoration: none;
   font-size: 16px;
   border-radius: 50%;
   background-color: white;
   padding: 5px;
-  margin-right: 10px;
+  margin-right: 7px;
   border-color: #EEEE;
   border-width: 1px;
   border-style: solid;
   color: #AAAAAA;
   margin-bottom: 36px;
+}
+.travel-icons{
+  display: inline;
+  padding-left: 211px;
+}
+
+.travel-icons a:hover {
+  background-color: #43C1F2;
+  color: white;
+}
+.travel-footer a:hover{
+  color:#43C1F2
 }
 
 .fa-facebook::before {
@@ -150,14 +174,14 @@ body {
 .picOfBrian {
   width: 300px;
   position: absolute;
-  right: 162px;
+  right: 38px;
   border-radius: 50%;
-  top: 226px;
+  top: 99.5px;
   border: solid 4px white;
 }
 
 .aside1text {
-  margin-top: 239px;
+  margin-top: 237px;
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 1.5px;
@@ -166,8 +190,7 @@ body {
 .aside1p {
   width: 300px;
   font-size: 16.6px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 21px;
   margin-top: 22px;
   line-height: 1.6;
 }
@@ -184,6 +207,11 @@ body {
   border-style: solid;
   color: #AAAAAA;
   margin-top: 13px;
+}
+
+.aside1-icons a:hover {
+  background-color: #43C1F2;
+  color: white;
 }
 
 .section-2 {
@@ -203,7 +231,7 @@ body {
 
 .article-2 img {
   width: 777px;
-  height: 580px;
+  height: 575px;
 }
 
 .artphead {
@@ -231,17 +259,20 @@ body {
   text-align: left;
   padding-top: 4px;
   word-spacing: 1.5px;
+  margin-bottom: 13px;
 }
 
 .art-footer {
-  display: flex;
-  justify-content: space-between;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
-  padding-left: 46.5px;
+  padding-left: 34.5px;
   padding-top: 19px;
   font-style: italic;
   padding-right: 38.5px;
+}
+.art-footer a{
+  text-decoration: none;
+  color: black;
 }
 
 .art-icons a {
@@ -250,7 +281,7 @@ body {
   border-radius: 50%;
   background-color: white;
   padding: 5px;
-  margin-right: 10px;
+  margin-right: 7px;
   border-color: #EEEE;
   border-width: 1px;
   border-style: solid;
@@ -258,6 +289,17 @@ body {
   margin-bottom: 36px;
 }
 
+.art-icons{
+  display: inline;
+  padding-left: 211px;
+}
+.art-footer a:hover{
+  color:#43C1F2
+}
+.art-icons a:hover{
+  background-color: #43C1F2;
+  color: white;
+}
 .greenville-drive {
   width: 307px;
   height: 175px;
@@ -270,7 +312,7 @@ body {
   position: absolute;
   left: 100%;
   bottom: 33.3%;
-  padding-left: 29px;
+  padding-left: 25px;
   padding-right: 32px;
   border: solid 1px #EEEEEE;
   background-color: white;
@@ -282,14 +324,14 @@ body {
 }
 
 .aside-2 h1 {
-  margin-top: 38px;
+  margin-top: 40px;
   margin-bottom: 25px;
 }
 
 .greenville-drive-date {
   text-align: start;
   font-size: 12px;
-  margin-top: 20px;
+  margin-top: 17px;
   font-weight: 900;
   margin-bottom: 26px;
 }
@@ -329,7 +371,7 @@ body {
 
 .article-3 img {
   width: 777px;
-  height: 437px;
+  height: 436px;
 }
 
 .article-3 {
@@ -367,32 +409,45 @@ body {
   text-align: left;
   padding-top: 4px;
   word-spacing: 1.5px;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .entertainment-footer {
-  display: flex;
-  justify-content: space-between;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
-  padding-left: 46.5px;
-  padding-top: 19px;
+  padding-left: 41px;
+  padding-top: 15px;
   font-style: italic;
   padding-right: 38.5px;
 }
-
+.entertainment-footer a{
+  text-decoration: none;
+  color: black;
+}
+.entertainment-footer a:hover{
+  color:#43C1F2
+}
+.entertainment-icons{
+  display: inline;
+  padding-left: 232px;
+}
 .entertainment-icons a {
   text-decoration: none;
   font-size: 16px;
   border-radius: 50%;
   background-color: white;
   padding: 5px;
-  margin-right: 10px;
+  margin-right: 7px;
   border-color: #EEEE;
   border-width: 1px;
   border-style: solid;
   color: #AAAAAA;
-  margin-bottom: 36px;
+  margin-bottom: 42px;
+}
+
+.entertainment-icons a:hover {
+  background-color: #43C1F2;
+  color: white;
 }
 
 .aside-3 {
@@ -410,15 +465,15 @@ body {
 .florence-opera {
   width: 102px;
   height: 80px;
-  padding-left: 30px;
+  padding-left: 25px;
   margin-bottom: 3px;
 }
 
 .aside-3 h1 {
   font-size: 20px;
-  padding-top: 22px;
+  padding-top: 25px;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 
 .lastest-post-flex {
@@ -434,7 +489,7 @@ body {
 .modern-minimalist {
   width: 102px;
   height: 80px;
-  padding-left: 30px;
+  padding-left: 25px;
   margin-bottom: 3px;
 }
 
@@ -455,7 +510,7 @@ body {
 .ramsus-warberg-chair {
   width: 102px;
   height: 80px;
-  padding-left: 30px;
+  padding-left: 25px;
   margin-bottom: 3px;
 }
 
@@ -471,8 +526,8 @@ body {
 
 .coffee-cup {
   width: 102px;
-  height: 80px;
-  padding-left: 30px;
+  height: 76px;
+  padding-left: 25px;
   margin-bottom: 3px;
 }
 
@@ -483,8 +538,8 @@ body {
 }
 
 .aside-4 {
-  width: 375px;
-  height: 396px;
+  width: 370px;
+  height: 384px;
   border: solid 1px #EEEEEE;
   background-color: white;
   position: absolute;
@@ -498,7 +553,8 @@ body {
 }
 
 .aside-4 h1 {
-  margin-bottom: 25px;
+  margin-bottom: 26px;
+  margin-top: 13px;
 }
 
 .aside4-pics img {
@@ -515,7 +571,7 @@ body {
 
 .article-4 img {
   width: 777px;
-  height: 518px;
+  height: 516px;
 }
 
 .article-4 {
@@ -534,6 +590,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #61C1E4;
   font-weight: bold;
+  margin-bottom: 11px;
 }
 
 .article-4 h1 {
@@ -553,18 +610,28 @@ body {
   text-align: left;
   padding-top: 4px;
   word-spacing: 1.8px;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .food-footer {
-  display: flex;
-  justify-content: space-between;
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
-  padding-left: 46.5px;
-  padding-top: 19px;
+  padding-left: 41px;
+  padding-top: 15px;
   font-style: italic;
   padding-right: 38.5px;
+}
+
+.food-footer a{
+  text-decoration: none;
+  color: black;
+}
+.food-footer a:hover{
+  color:#43C1F2
+}
+.food-icons {
+  display: inline;
+  padding-left: 232px;
 }
 
 .food-icons a {
@@ -578,16 +645,21 @@ body {
   border-width: 1px;
   border-style: solid;
   color: #AAAAAA;
-  margin-bottom: 36px;
+  margin-bottom: 41px;
+}
+
+.food-icons a:hover {
+  background-color: #43C1F2;
+  color: white;
 }
 
 .page-footer {
-  margin-top: 39px;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   color: white;
   background-color: black;
-  padding: 25px 0px 25px 0px;
+  padding: 24.5px 0px 24.5px 0px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -642,10 +714,12 @@ body {
   .travel-icons {
     padding-top: 28px;
     text-align: end;
+    padding-left: 151px;
   }
 
   .travel-icons a {
     margin-right: 8px;
+    margin-top: 27px;
   }
 
   .travel-footer {
@@ -702,10 +776,12 @@ body {
   .art-icons {
     padding-top: 27px;
     text-align: end;
+    padding-left:151px;
   }
 
   .art-icons a {
     margin-right: 8px;
+    margin-top:27px;
   }
 
   .article-3 {
@@ -749,10 +825,12 @@ body {
   .entertainment-icons {
     padding-top: 27px;
     text-align: end;
+    padding-left: 151px;
   }
 
   .entertainment-icons a {
     margin-right: 8px;
+    margin-top:27px;
   }
 
   .section-4 {
@@ -789,17 +867,20 @@ body {
     display: block;
     font-size: 12px;
     text-align: start;
-    padding-left: 44.5px;
-    padding-top: 21px;
+    padding-left: 40px;
+    padding-top: 18px;
   }
 
   .food-icons {
-    padding-top: 27px;
+    display: inline-block;
+    padding-top: -2px;
     text-align: end;
+    padding-left:160px;
   }
 
   .food-icons a {
-    margin-right: 8px;
+    margin-right: 7px;
+    margin-top: 31px;
   }
 
   .aside1 {
