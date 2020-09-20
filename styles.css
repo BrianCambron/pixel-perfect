@@ -589,3 +589,205 @@ body {
   background-color: black;
   padding: 25px 0px 25px 0px;
 }
+
+@media only screen and (max-width: 600px) {
+  .container-1 {
+    padding: 40px;
+  }
+
+  .travel {
+    width: 470px;
+    margin-left: 14px;
+    margin-top: 50px;
+    height: 824px;
+  }
+
+  .travel>img {
+    width: 470px;
+    height: 293px;
+  }
+
+  .travel>h1 {
+    font-size: 22px;
+    margin-bottom: -14px;
+  }
+
+  .left-nav {
+    display: none;
+  }
+
+  .right-nav {
+    display: none;
+  }
+
+  .contBtn {
+    padding: 14px 25px 14px 25px;
+    margin-top: 11px;
+    margin-bottom: 23px;
+  }
+
+  .travelpbody {
+    font-size: 13px;
+    word-spacing: 2.5px;
+  }
+
+  .travel-icons {
+    padding-top: 28px;
+    text-align: end;
+  }
+
+  .travel-icons a {
+    margin-right: 8px;
+  }
+
+  .travel-footer {
+    display: block;
+    font-size: 12px;
+    text-align: start;
+    padding-left: 44.5px;
+    padding-top: 20px;
+  }
+
+  .article-2 {
+    width: 470px;
+    margin-left: 14px;
+    margin-top: 40px;
+    height: 933px;
+  }
+
+  .article-2>img {
+    width: 470px;
+    height: 350px;
+  }
+
+  .artpbody {
+    font-size: 13px;
+    word-spacing: 2.5px;
+  }
+
+  .article-2>h1 {
+    font-size: 22px;
+    margin-bottom: 23px;
+  }
+
+  .artpbody {
+    font-size: 13px;
+    word-spacing: 4.5px;
+  }
+
+  .art-footer {
+    display: block;
+    font-size: 12px;
+    text-align: start;
+    padding-left: 44.5px;
+    padding-top: 21px;
+  }
+
+  .art-icons {
+    padding-top: 27px;
+    text-align: end;
+  }
+
+  .art-icons a {
+    margin-right: 8px;
+  }
+
+  .article-3 {
+    width: 470px;
+    margin-left: 14px;
+    margin-top: 40px;
+    height: 819px;
+  }
+
+  .article-3>img {
+    width: 470px;
+    height: 263px;
+  }
+  .article-3>h1{
+    font-size:23px;
+  }
+
+  .entertainmentpbody {
+    font-size: 13px;
+    word-spacing: 2.5px;
+    margin-bottom: 13px;
+  }
+
+  .entertainment-footer {
+    display: block;
+    font-size: 12px;
+    text-align: start;
+    padding-left: 44.5px;
+    padding-top: 21px;
+  }
+  .entertainment-icons {
+    padding-top: 27px;
+    text-align: end;
+  }
+  .entertainment-icons a {
+    margin-right: 8px;
+  }
+  .article-4 {
+    width: 470px;
+    margin-left: 14px;
+    margin-top: 40px;
+    height: 909px;
+  }
+  .article-4>img {
+    width: 470px;
+    height: 352px;
+  }
+  .article-4 >h1{
+    font-size: 21px;
+  }
+  .foodpbody{
+    word-spacing: 0px;
+    margin-bottom: -3px;
+  }
+  .food-footer {
+    display: block;
+    font-size: 12px;
+    text-align: start;
+    padding-left: 44.5px;
+    padding-top: 21px;
+  }
+  .food-icons {
+    padding-top: 27px;
+    text-align: end;
+  }
+  .food-icons a {
+    margin-right: 8px;
+  }
+  .aside1{
+    position: relative;
+    top: 3645px;
+    width: 470px;
+    /* margin-left: 20px; */
+    display: block;
+    right: 51%;
+    height: 711px;
+  }
+  .reedy-river {
+    width: 471px;
+    height: 183px;
+  }
+  .picOfBrian {
+    width: 398px;
+    right: 34px;
+    top: 103px;
+  }
+  .aside1text{
+    margin-top: 343px;
+    margin-bottom: 0px;
+  }
+  .aside1p{
+    width: 376px;
+    font-size: 14px;
+    padding-left: 49px;
+    margin-bottom: -19px;
+    margin-top: 22px;
+  }
+  .aside1-icons a{
+    margin-right: 1px;
+  }
+}
