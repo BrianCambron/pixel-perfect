@@ -23,6 +23,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.left-nav>a:first-of-type {
+  color: #43C1F2;
+}
+
 .left-nav a {
   text-decoration: none;
   color: #AAAAAA;
@@ -44,8 +48,12 @@ body {
   padding-right: 28px;
 }
 
+.fa-angle-down:first-of-type {
+  color: #43C1F2;
+}
+
 .fa-angle-down {
-  color: #AAAAAA;
+  color: #EEEEEE;
 }
 
 .travel {
@@ -56,6 +64,42 @@ body {
   margin-top: 55px;
   border: solid 1px #EEEEEE;
   background-color: white;
+  position: relative;
+}
+
+.travel>img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.travel:hover img {
+  opacity: 1;
+}
+
+.travel:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  border: solid 2px white;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 .aside1 {
@@ -123,10 +167,12 @@ body {
   font-style: italic;
   padding-right: 38.5px;
 }
-.travel-footer a{
+
+.travel-footer a {
   text-decoration: none;
   color: black;
 }
+
 .travel-icons a {
   text-decoration: none;
   font-size: 16px;
@@ -140,7 +186,8 @@ body {
   color: #AAAAAA;
   margin-bottom: 36px;
 }
-.travel-icons{
+
+.travel-icons {
   display: inline;
   padding-left: 211px;
 }
@@ -149,8 +196,9 @@ body {
   background-color: #43C1F2;
   color: white;
 }
-.travel-footer a:hover{
-  color:#43C1F2
+
+.travel-footer a:hover {
+  color: #43C1F2
 }
 
 .fa-facebook::before {
@@ -227,6 +275,24 @@ body {
   margin-top: 41px;
   border: solid 1px #EEEEEE;
   background-color: white;
+  position: relative;
+}
+
+.article-2>img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.article-2:hover .artpainting {
+  opacity: 1;
+}
+
+.article-2:hover .middle {
+  opacity: 1;
 }
 
 .article-2 img {
@@ -270,7 +336,8 @@ body {
   font-style: italic;
   padding-right: 38.5px;
 }
-.art-footer a{
+
+.art-footer a {
   text-decoration: none;
   color: black;
 }
@@ -289,17 +356,20 @@ body {
   margin-bottom: 36px;
 }
 
-.art-icons{
+.art-icons {
   display: inline;
   padding-left: 211px;
 }
-.art-footer a:hover{
-  color:#43C1F2
+
+.art-footer a:hover {
+  color: #43C1F2
 }
-.art-icons a:hover{
+
+.art-icons a:hover {
   background-color: #43C1F2;
   color: white;
 }
+
 .greenville-drive {
   width: 307px;
   height: 175px;
@@ -382,6 +452,15 @@ body {
   margin-top: 41px;
   border: solid 1px #EEEEEE;
   background-color: white;
+  position: relative;
+}
+
+.article-3:hover img {
+  opacity: 1;
+}
+
+.article-3:hover .middle {
+  opacity: 1;
 }
 
 .entertainmentphead {
@@ -420,17 +499,21 @@ body {
   font-style: italic;
   padding-right: 38.5px;
 }
-.entertainment-footer a{
+
+.entertainment-footer a {
   text-decoration: none;
   color: black;
 }
-.entertainment-footer a:hover{
-  color:#43C1F2
+
+.entertainment-footer a:hover {
+  color: #43C1F2
 }
-.entertainment-icons{
+
+.entertainment-icons {
   display: inline;
   padding-left: 232px;
 }
+
 .entertainment-icons a {
   text-decoration: none;
   font-size: 16px;
@@ -582,6 +665,14 @@ body {
   margin-top: 41px;
   border: solid 1px #EEEEEE;
   background-color: white;
+  position: relative;
+}
+.article-4:hover img {
+  opacity: 1;
+}
+
+.article-4:hover .middle {
+  opacity: 1;
 }
 
 .foodphead {
@@ -622,13 +713,15 @@ body {
   padding-right: 38.5px;
 }
 
-.food-footer a{
+.food-footer a {
   text-decoration: none;
   color: black;
 }
-.food-footer a:hover{
-  color:#43C1F2
+
+.food-footer a:hover {
+  color: #43C1F2
 }
+
 .food-icons {
   display: inline;
   padding-left: 232px;
@@ -776,12 +869,12 @@ body {
   .art-icons {
     padding-top: 27px;
     text-align: end;
-    padding-left:151px;
+    padding-left: 151px;
   }
 
   .art-icons a {
     margin-right: 8px;
-    margin-top:27px;
+    margin-top: 27px;
   }
 
   .article-3 {
@@ -830,7 +923,7 @@ body {
 
   .entertainment-icons a {
     margin-right: 8px;
-    margin-top:27px;
+    margin-top: 27px;
   }
 
   .section-4 {
@@ -875,7 +968,7 @@ body {
     display: inline-block;
     padding-top: -2px;
     text-align: end;
-    padding-left:160px;
+    padding-left: 160px;
   }
 
   .food-icons a {
