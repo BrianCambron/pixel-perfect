@@ -12,6 +12,7 @@ body {
   background-color: white;
   padding: 26px;
 }
+
 #hamnav label, #hamburger {
   display: none;
 }
@@ -43,7 +44,7 @@ body {
 }
 
 .right-nav {
-  padding-left:323px;
+  padding-left: 323px;
   font-size: 14px;
 }
 
@@ -92,6 +93,7 @@ body {
 
 .travel:hover img {
   opacity: 1;
+  filter: grayscale(50%);
 }
 
 .travel:hover .middle {
@@ -292,6 +294,7 @@ body {
 
 .article-2:hover .artpainting {
   opacity: 1;
+  filter: grayscale(50%);
 }
 
 .article-2:hover .middle {
@@ -401,6 +404,11 @@ body {
   margin-bottom: 25px;
 }
 
+.greenville-drive:hover {
+  filter: grayscale(75%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .greenville-drive-date {
   text-align: start;
   font-size: 12px;
@@ -415,6 +423,11 @@ body {
   margin-top: 21px;
 }
 
+.fall-for-greenville:hover {
+  filter: grayscale(75%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .fall-for-greenville-date {
   text-align: start;
   font-size: 12px;
@@ -427,6 +440,11 @@ body {
   width: 307px;
   height: 175px;
   margin-top: 21px;
+}
+
+.up-on-the-roof:hover {
+  filter: grayscale(75%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .up-on-roof-date {
@@ -460,6 +478,7 @@ body {
 
 .article-3:hover img {
   opacity: 1;
+  filter: grayscale(50%);
 }
 
 .article-3:hover .middle {
@@ -551,8 +570,13 @@ body {
 .florence-opera {
   width: 102px;
   height: 80px;
-  padding-left: 25px;
+  margin-left: 25px;
   margin-bottom: 3px;
+}
+
+.florence-opera:hover {
+  filter: grayscale(100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .aside-3 h1 {
@@ -575,8 +599,13 @@ body {
 .modern-minimalist {
   width: 102px;
   height: 80px;
-  padding-left: 25px;
+  margin-left: 25px;
   margin-bottom: 3px;
+}
+
+.modern-minimalist:hover {
+  filter: grayscale(75%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .latest-post-flex-2 {
@@ -596,8 +625,13 @@ body {
 .ramsus-warberg-chair {
   width: 102px;
   height: 80px;
-  padding-left: 25px;
+  margin-left: 25px;
   margin-bottom: 3px;
+}
+
+.ramsus-warberg-chair:hover {
+  filter: grayscale(75%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .latest-post-3 {
@@ -613,8 +647,13 @@ body {
 .coffee-cup {
   width: 102px;
   height: 76px;
-  padding-left: 25px;
+  margin-left: 25px;
   margin-bottom: 3px;
+}
+
+.coffee-cup:hover {
+  filter: grayscale(75%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .latest-post-4 {
@@ -646,10 +685,13 @@ body {
 .aside4-pics img {
   width: 99px;
   height: 93px;
-  padding-right: 4px;
-  padding-bottom: 7px;
+  margin-right: 4px;
+  margin-bottom: 7px;
 }
-
+.aside4-pics img:hover{
+  filter: grayscale(75%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .section-4 {
   display: inline-flex;
   position: relative;
@@ -670,8 +712,10 @@ body {
   background-color: white;
   position: relative;
 }
+
 .article-4:hover img {
   opacity: 1;
+  filter: grayscale(75%);
 }
 
 .article-4:hover .middle {
@@ -1045,10 +1089,9 @@ body {
     height: 304px;
   }
 
-  .greenville-drive-date {
+  /* .greenville-drive-date {
     display: none;
-  }
-
+  } */
   .aside-2>hr:first-of-type {
     display: none;
   }
@@ -1133,15 +1176,16 @@ body {
   .latest-post-3 p {
     margin-bottom: 6px;
   }
+
   #hamnav label {
-  display: inline-block;
-  color: #888888;
-  background: white;
-  font-style: normal;
-  font-size: 1.2em;
-  padding: 6px 14px 6px 14px;
-  margin-right: 40px;
-  border: solid 1px #888888;
-  border-radius: 2px;
-}
+    display: inline-block;
+    color: #888888;
+    background: white;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 6px 14px 6px 14px;
+    margin-right: 40px;
+    border: solid 1px #888888;
+    border-radius: 2px;
+  }
 }
