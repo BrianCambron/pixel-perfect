@@ -12,6 +12,9 @@ body {
   background-color: white;
   padding: 26px;
 }
+#hamnav label, #hamburger {
+  display: none;
+}
 
 .container-1 a:hover {
   color: #94DFF6;
@@ -40,7 +43,7 @@ body {
 }
 
 .right-nav {
-  padding-right: 100px;
+  padding-left:323px;
   font-size: 14px;
 }
 
@@ -138,7 +141,7 @@ body {
   text-align: left;
   padding-top: 4px;
   word-spacing: 1.5px;
-  margin-bottom: 11px;
+  margin-bottom: 14px;
 }
 
 .contBtn {
@@ -301,7 +304,7 @@ body {
 }
 
 .artphead {
-  margin-top: 39px;
+  margin-top: 43px;
   font-size: 10.5px;
   font-family: 'Open Sans', sans-serif;
   color: #61C1E4;
@@ -312,7 +315,7 @@ body {
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
   margin-top: 13px;
-  margin-bottom: 22px;
+  margin-bottom: 26px;
   letter-spacing: 1.5px;
 }
 
@@ -325,7 +328,7 @@ body {
   text-align: left;
   padding-top: 4px;
   word-spacing: 1.5px;
-  margin-bottom: 13px;
+  margin-bottom: 10px;
 }
 
 .art-footer {
@@ -511,7 +514,7 @@ body {
 
 .entertainment-icons {
   display: inline;
-  padding-left: 232px;
+  padding-left: 223px;
 }
 
 .entertainment-icons a {
@@ -757,8 +760,11 @@ body {
 
 @media only screen and (max-width: 600px) {
   .container-1 {
-    padding: 40px;
+    padding: 21px;
     width: 490px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0px;
   }
 
   .leftarticle {
@@ -1127,4 +1133,15 @@ body {
   .latest-post-3 p {
     margin-bottom: 6px;
   }
+  #hamnav label {
+  display: inline-block;
+  color: #888888;
+  background: white;
+  font-style: normal;
+  font-size: 1.2em;
+  padding: 6px 14px 6px 14px;
+  margin-right: 40px;
+  border: solid 1px #888888;
+  border-radius: 2px;
+}
 }
